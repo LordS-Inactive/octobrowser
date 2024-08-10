@@ -210,7 +210,7 @@ class Profiles:
 
         return {'status': False, 'msg': response.text}
 
-    async def trasfer_profile(self, email: str, uuids: str | list, with_proxy: bool = False):
+    async def transfer_profile(self, email: str, uuids: str | list, with_proxy: bool = False):
         if type(uuids) is str:
             uuids = [uuids]
 
